@@ -2,8 +2,9 @@
   "name": "open-bug",
   "version": "1.0.0",
   "description": "that is interface",
-  "main": "index.js",
+  "main": "script(server).js",
   "scripts": {
+    "start": "nodemon open-FirstNodejs -Server",
     "test": "test"
   },
   "repository": {
