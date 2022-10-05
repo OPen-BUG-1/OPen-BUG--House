@@ -1,0 +1,22 @@
+{
+  "name": "open-bug",
+  "version": "1.0.0",
+  "description": "that is interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OPen-BUG-1/OPen-BUG--House.git"
+  },
+  "author": "DLOluntras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OPen-BUG-1/OPen-BUG--House/issues"
+  },
+  "homepage": "https://github.com/OPen-BUG-1/OPen-BUG--House#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
