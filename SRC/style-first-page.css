@@ -182,7 +182,7 @@ h1{
  
   opacity: 0.6;
 }
-p{
+.docs__introductio__paragraf{
   position: relative;
   font-family: "Gill Sans", sans-serif;
   padding: 310px 20px 20px 15%;
@@ -190,3 +190,69 @@ p{
   width: 400px;
 }
 
+
+.accordion {
+  font-family: "Gill Sans", sans-serif;
+  border-radius: 20px;
+  background-color: #444;
+  color: rgb(191, 182, 182);
+  cursor: pointer;
+  margin: 50px;
+
+  width: 100px;
+  text-align: center;
+  position: relative;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  margin: 10px;
+
+ padding: 0px 30px  ;
+  background-color: rgb(231, 228, 222);
+  display: none;
+  overflow: hidden;
+}
+.paragraf{
+  position: relative;
+  font-family: "Gill Sans", sans-serif;
+}
+.accordion01 {
+  margin: 20px;
+  font-family: "Gill Sans", sans-serif;
+  border-radius: 20px;
+  background-color: #444;
+  color: rgb(191, 182, 182);
+  cursor: pointer;
+  margin: 50px;
+ padding: 20px 25% 20px 25%;
+  width: 100px;
+  text-align: center;
+  position: relative;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.accordion02 {
+  margin: 20px;
+  font-family: "Gill Sans", sans-serif;
+  border-radius: 20px;
+  background-color: #444;
+  color: rgb(191, 182, 182);
+  cursor: pointer;
+  margin: 50px;
+ padding: 20px 25% 20px 25%;
+  width: 100px;
+  text-align: center;
+  position: relative;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
